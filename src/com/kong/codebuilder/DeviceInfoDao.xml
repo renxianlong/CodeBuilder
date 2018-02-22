@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhouhua.cuanju.push.dao.DeviceInfoDao">
+
+<!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.zhouhua.cuanju.push.po.DeviceInfo">
+        <result column="user_id" property="userId"/>
+        <result column="device_token" property="deviceToken"/>
+        <result column="language" property="language"/>
+        <result column="region" property="region"/>
+        <result column="os" property="os"/>
+        <result column="id" property="id"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="delete" property="delete"/>
+    </resultMap>
+
+<!--auto generated Code-->
+    <sql id="all_column">
+        user_id,
+        device_token,
+        `language`,
+        region,
+        os,
+        id,
+        create_time,
+        update_time,
+        `delete`
+    </sql>
+
+<!--auto generated Code-->
+    <insert id="insert">
+        INSERT INTO device_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.userId != null"> user_id, </if>
+            <if test="pojo.deviceToken != null"> device_token, </if>
+            <if test="pojo.language != null"> `language`, </if>
+            <if test="pojo.region != null"> region, </if>
+            <if test="pojo.os != null"> os, </if>
+            <if test="pojo.id != null"> id, </if>
+            <if test="pojo.createTime != null"> create_time, </if>
+            <if test="pojo.updateTime != null"> update_time, </if>
+            <if test="pojo.delete != null"> `delete`, </if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.userId != null"> #{pojo.userId}, </if>
+            <if test="pojo.deviceToken != null"> #{pojo.deviceToken}, </if>
+            <if test="pojo.language != null"> #{pojo.language}, </if>
+            <if test="pojo.region != null"> #{pojo.region}, </if>
+            <if test="pojo.os != null"> #{pojo.os}, </if>
+            <if test="pojo.id != null"> #{pojo.id}, </if>
+            <if test="pojo.createTime != null"> #{pojo.createTime}, </if>
+            <if test="pojo.updateTime != null"> #{pojo.updateTime}, </if>
+            <if test="pojo.delete != null"> #{pojo.delete}, </if>
+        </trim>
+    </insert>
+
+<!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO device_info(
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.userId},
+            #{pojo.deviceToken},
+            #{pojo.language},
+            #{pojo.region},
+            #{pojo.os},
+            #{pojo.id},
+            #{pojo.createTime},
+            #{pojo.updateTime},
+            #{pojo.delete}
+            )
+        </foreach>
+    </insert>
+
+<!--auto generated Code-->
+    <update id="update">
+        UPDATE device_info
+        <set>
+            <if test="pojo.userId != null"> user_id = #{pojo.userId}, </if>
+            <if test="pojo.deviceToken != null"> device_token = #{pojo.deviceToken}, </if>
+            <if test="pojo.language != null"> `language` = #{pojo.language}, </if>
+            <if test="pojo.region != null"> region = #{pojo.region}, </if>
+            <if test="pojo.os != null"> os = #{pojo.os}, </if>
+            <if test="pojo.id != null"> id = #{pojo.id}, </if>
+            <if test="pojo.createTime != null"> create_time = #{pojo.createTime}, </if>
+            <if test="pojo.delete != null"> `delete` = #{pojo.delete}, </if>
+        </set>
+         WHERE id = #{pojo.id}
+    </update>
+
+<!--auto generated Code-->
+    <select id="select" resultMap="AllColumnMap">
+        SELECT <include refid="all_column"/>
+        FROM device_info
+        <where>
+            <if test="pojo.userId != null"> AND user_id = #{pojo.userId} </if>
+            <if test="pojo.deviceToken != null"> AND device_token = #{pojo.deviceToken} </if>
+            <if test="pojo.language != null"> AND `language` = #{pojo.language} </if>
+            <if test="pojo.region != null"> AND region = #{pojo.region} </if>
+            <if test="pojo.os != null"> AND os = #{pojo.os} </if>
+            <if test="pojo.id != null"> AND id = #{pojo.id} </if>
+            <if test="pojo.createTime != null"> AND create_time = #{pojo.createTime} </if>
+            <if test="pojo.updateTime != null"> AND update_time = #{pojo.updateTime} </if>
+            <if test="pojo.delete != null"> AND `delete` = #{pojo.delete} </if>
+        </where>
+        LIMIT 1000 
+    </select>
+
+    <select id="selectByUserId" resultMap="AllColumnMap">
+        SELECT <include refid="all_column"/>
+        FROM device_info
+        <where>
+            <if test="userId != null"> AND user_id = #{userId} </if>
+        </where>
+    </select>
+
+<!--auto generated Code-->
+    <delete id="delete">
+        update FROM device_info set `delete` = 1 where id = #{pojo.id}
+    </delete>
+</mapper>
