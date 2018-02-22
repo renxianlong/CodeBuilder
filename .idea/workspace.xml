@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b927cf15-cef6-45db-96ec-e89eeee7edfb" name="Default" comment="" />
+    <list default="true" id="b927cf15-cef6-45db-96ec-e89eeee7edfb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CodeBuilder.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/META-INF/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/ClassType.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/DeviceInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/action/MapperBuilderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/MappperBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/common/Context.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/common/KeyName.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/loader/ClassInfoLoader.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/loader/MapperBuilderConfigLoader.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/loader/PropertiesLoader.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/ClassInfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/FieldInfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/ClassUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/DateUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/FileUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/GenCodeUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/ClassType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/DeviceInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/action/MapperBuilderAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/CreateSqlBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/MappperBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/SearchBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/common/Context.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/common/KeyName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/ClassInfoLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/MapperBuilderConfigLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/PropertiesLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/pojo/ClassInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/pojo/FieldInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/util/ClassUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/util/DateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/util/FileUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/kong/codebuilder/util/GenCodeUtil.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +69,8 @@
       <file leaf-file-name="DaoBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -183,6 +237,9 @@
       <replace>clazz</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -239,9 +296,9 @@
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/action/MapperBuilderAction.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/loader/MapperBuilderConfigLoader.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/builder/CreateSqlBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/builder/MappperBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java" />
       </list>
     </option>
   </component>
@@ -270,6 +327,7 @@
     <option name="width" value="1440" />
     <option name="height" value="817" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -586,7 +644,7 @@
       <workItem from="1518489372894" duration="345000" />
       <workItem from="1518836591292" duration="4888000" />
       <workItem from="1519271768704" duration="19943000" />
-      <workItem from="1519301694426" duration="7492000" />
+      <workItem from="1519301694426" duration="7743000" />
     </task>
     <servers />
   </component>
@@ -605,7 +663,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83665000" />
+    <option name="totallyTimeSpent" value="83916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,15 +690,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39889196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825485" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1200,8 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>
