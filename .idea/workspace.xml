@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b927cf15-cef6-45db-96ec-e89eeee7edfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/DaoBuilder.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/DaoBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/MapperBuilder.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/MapperBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/ServiceBuilder.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/builder/ServiceBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/util/ClassUtil.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/util/FileUtil.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kong/codebuilder/util/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codebuilder-2018.2.28.zip" afterPath="$PROJECT_DIR$/build/distributions/codebuilder-2018.2.28.zip" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/DaoBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/DaoBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/MapperBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/MapperBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/ServiceBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/builder/ServiceBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/util/ClassUtil.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/util/FileUtil.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/codebuilder/classes/com/kong/codebuilder/util/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/DaoBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/DaoBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/MapperBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/MapperBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/ServiceBuilder.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/builder/ServiceBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/util/ClassUtil.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/util/FileUtil.class" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/codebuilder/classes/com/kong/codebuilder/util/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/CodeBuilder-2018.2.28.jar" afterPath="$PROJECT_DIR$/build/libs/CodeBuilder-2018.2.28.jar" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/MapperBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/MapperBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/ServiceBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/ServiceBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/ClassUtil.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/FileUtil.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/main/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/main/resources/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/FileUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapperBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapperBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -90,6 +53,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -171,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kong/codebuilder/config/MapperBuilderConfigManager.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/config/PropertiesConfigloader.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/config/Propertiesloader.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/config/PropertiesLoader.java" />
@@ -222,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -274,92 +250,6 @@
             <path>
               <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
@@ -629,7 +519,7 @@
       <workItem from="1519379245871" duration="1298000" />
       <workItem from="1519471567185" duration="33000" />
       <workItem from="1519471729203" duration="2997000" />
-      <workItem from="1519476081669" duration="62000" />
+      <workItem from="1519476081669" duration="188000" />
     </task>
     <servers />
   </component>
@@ -648,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110764000" />
+    <option name="totallyTimeSpent" value="110890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,6 +551,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -671,7 +562,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -741,7 +632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kong/codebuilder/loader/PropertiesLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/com/kong/codebuilder/ClassType.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiType.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1012,6 +902,17 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
