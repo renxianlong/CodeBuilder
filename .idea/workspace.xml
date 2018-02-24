@@ -2,46 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b927cf15-cef6-45db-96ec-e89eeee7edfb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CodeBuilder.iml" afterPath="$PROJECT_DIR$/CodeBuilder.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/CartMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/action/MapperBuilderAction.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/action/MapperBuilderAction.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder$1.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/CreateSqlBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder$1.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/DaoBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/MappperBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder$1.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/builder/SearchBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/loader/MapperBuilderConfigLoader.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/loader/MapperBuilderConfigLoader.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/ClassInfo.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/ClassInfo.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/FieldInfo.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/pojo/FieldInfo.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/ClassUtil.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/ClassUtil.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/FileUtil.class" afterPath="$PROJECT_DIR$/out/production/CodeBuilder/com/kong/codebuilder/util/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/src/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/CartMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/CartMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/ClassType.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/DeviceInfoDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/DeviceInfoDao.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/action/MapperBuilderAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/CreateSqlBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/DaoBuilder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/MappperBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/builder/SearchBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/common/Context.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/common/Context.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/common/KeyName.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/common/KeyName.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/ClassInfoLoader.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/ClassInfoLoader.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/MapperBuilderConfigLoader.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/MapperBuilderConfigLoader.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/loader/PropertiesLoader.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/PropertiesLoader.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/pojo/ClassInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/pojo/FieldInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/FieldInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/readme.md" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/readme.md" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/util/ClassUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/util/DateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/DateUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/util/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/FileUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/kong/codebuilder/util/GenCodeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/GenCodeUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,110 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java">
+      <file leaf-file-name="ServiceBuilder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
-                <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1979#1980#0" expanded="true" />
-                <element signature="e#2013#2014#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="70" column="55" lean-forward="false" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/PropertiesLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="80" column="55" lean-forward="false" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateSqlBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperBuilderAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperBuilderConfigLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/MapperBuilderConfigLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassInfoLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/ClassInfoLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="137" column="50" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="81" column="55" lean-forward="false" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+            <state relative-caret-position="253">
+              <caret line="54" column="66" lean-forward="true" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -174,12 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ref</find>
-      <find>batchInsert</find>
-      <find>update</find>
-      <find>n</find>
-      <find>\n</find>
-      <find>PsiReferenceList</find>
       <find>xtend</find>
       <find>psiField.getNameIdentifier().getText()</find>
       <find>searchPath</find>
@@ -204,12 +67,20 @@
       <find>gt</find>
       <find>ApplicationManager.getApplication().saveAll()</find>
       <find>getFieldInfo</find>
+      <find>DAO_FULL_NAME</find>
+      <find>index</find>
+      <find>otherChar</find>
+      <find>juInvite</find>
+      <find>JuInvite</find>
+      <find>invite</find>
     </findStrings>
     <replaceStrings>
       <replace>Directory</replace>
       <replace>clazz</replace>
       <replace>&quot;pojo.&quot; + fieldInfo.getName()</replace>
       <replace>&quot;pojo.&quot; + field.getName()</replace>
+      <replace>&quot; + formatFieldName(pojoClass) + &quot;</replace>
+      <replace>&quot; + pojoClass + &quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -234,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BuildMapperAction.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/src/com/kong/codebuilder/ClassInfo.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/config/UserConfigManager.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/com/kong/codebuilder/util/GenCodeUtil.java" />
@@ -277,14 +145,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/GenCodeUtil.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MappperBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/loader/ClassInfoLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/JuInviteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java" />
       </list>
     </option>
   </component>
@@ -328,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,34 +255,13 @@
             </path>
             <path>
               <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codebuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeBuilder" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,11 +274,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.kong.codebuilder.builder" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kong.codebuilder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/com/kong/codebuilder" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/com/kong/codebuilder/loader" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kong.codebuilder.builder" />
@@ -434,12 +291,8 @@
       <recent name="com.kong.codebuilder.util" />
       <recent name="com.kong.codebuilder.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/com/kong/codebuilder" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/com/kong/codebuilder/loader" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kong.codebuilder.builder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -664,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102707000" />
+    <option name="totallyTimeSpent" value="106643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,6 +530,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -690,7 +544,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39821252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770607" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,17 +552,41 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23634557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18932039" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21352503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326713" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39821252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23634557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21352503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,20 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiElementFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiJavaParserFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -896,10 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,23 +793,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/DeviceInfoDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <marker date="1517755582000" expanded="true" signature="3058:3752" ph="UPDATE device_info... " />
-            <marker date="1517755582000" expanded="true" signature="3853:4697" ph="SELECT FROM device_info" />
-            <marker date="1517755582000" expanded="true" signature="5019:5081" ph="update FROM... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="423" column="24" lean-forward="true" selection-start-line="423" selection-start-column="24" selection-end-line="423" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,30 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="98" column="94" lean-forward="false" selection-start-line="98" selection-start-column="94" selection-end-line="98" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="137" column="50" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,44 +845,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/pojo/ClassInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+        <state relative-caret-position="617">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/util/ClassUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/JuInviteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/ClassType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/DaoBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="80" column="55" lean-forward="false" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+        <state relative-caret-position="403">
+          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/CreateSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="70" column="55" lean-forward="false" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="81" column="55" lean-forward="false" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+        <state relative-caret-position="138">
+          <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/action/MapperBuilderAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/SearchBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/MapperBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="200" column="43" lean-forward="false" selection-start-line="200" selection-start-column="43" selection-end-line="200" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kong/codebuilder/builder/ServiceBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="54" column="66" lean-forward="true" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
           <folding />
         </state>
       </provider>

@@ -173,6 +173,8 @@ public class CreateSqlBuilder {
             case BASIC_INT:
             case INTEGER:
                 return "INTEGER(12) NOT NULL DEFAULT -1";
+            case BOOLEAN:
+            case BASIC_BOOLEAN:
             case SHORT:
             case BASIC_SHORT:
                 return "TINYINT NOT NULL DEFAULT -1";

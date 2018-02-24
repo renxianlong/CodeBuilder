@@ -70,6 +70,8 @@ public class DaoBuilder {
                 "    " + pojoClass + " getById(Long id);\n" +
                 "\n" +
                 "    List<" + pojoClass + "> search(" + searchClassName + " search);\n" +
+                "\n" +
+                "    int count(" + searchClassName + " search);\n" +
                 "}";
 
         //创建文件

@@ -19,6 +19,8 @@ public enum ClassType {
     BASIC_SHORT(12, "short"),
     BASIC_DOUBLE(13, "double"),
     BASIC_FLOAT(14, "float"),
+    BOOLEAN(15, "Boolean"),
+    BASIC_BOOLEAN(16, "boolean"),
     NONE(-1, "none");
 
     private Integer code;

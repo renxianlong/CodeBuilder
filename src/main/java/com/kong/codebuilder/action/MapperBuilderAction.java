@@ -4,10 +4,7 @@ import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.vfs.VirtualFileManager;
-import com.kong.codebuilder.builder.CreateSqlBuilder;
-import com.kong.codebuilder.builder.DaoBuilder;
-import com.kong.codebuilder.builder.MapperBuilder;
-import com.kong.codebuilder.builder.SearchBuilder;
+import com.kong.codebuilder.builder.*;
 import com.kong.codebuilder.loader.MapperBuilderConfigLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +28,9 @@ public class MapperBuilderAction extends AnAction {
 
         //生成dao类
         DaoBuilder.createDao();
+
+        //生成Service类
+        ServiceBuilder.createService();
 
         //生成xml文件
         MapperBuilder.generateMapper();

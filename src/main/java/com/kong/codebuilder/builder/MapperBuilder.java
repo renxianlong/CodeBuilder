@@ -63,6 +63,9 @@ public class MapperBuilder {
         //设置search语句
         mapper.addContent(getSearchElement(classInfo));
 
+        //设置search语句
+        mapper.addContent(getCountElement(classInfo));
+
         //保存xml
         String fileName = classInfo.getPsiClass().getName() + "Dao.xml";
         FileUtil.saveXml(fileName, MapperBuilderConfigLoader.getInstance().getMapperPath(), document);
@@ -88,11 +91,22 @@ public class MapperBuilder {
     }
 
     private static Element getDeleteElement(ClassInfo classInfo) {
+        boolean softDelete = false;
+        for (FieldInfo fieldInfo : classInfo.getFieldList()) {
+            if (fieldInfo.getName().endsWith("delete")) {
+                softDelete = true;
+            }
+        }
+
         Element delete = new Element("delete");
         delete.setAttribute("id", "delete");
-
-        Text deleteSql = new Text("DELETE FROM " + ClassUtil.generateTableName(classInfo) + " WHERE `id`=#{id}");
-        delete.addContent(deleteSql);
+        if (softDelete) {
+            Text deleteSql = new Text("UPDATE " + ClassUtil.generateTableName(classInfo) + " SET `delete` = 1 WHERE `id`=#{id}");
+            delete.addContent(deleteSql);
+        } else {
+            Text deleteSql = new Text("DELETE FROM " + ClassUtil.generateTableName(classInfo) + " WHERE `id`=#{id}");
+            delete.addContent(deleteSql);
+        }
         return delete;
     }
 
@@ -179,6 +193,52 @@ public class MapperBuilder {
             }
         });
 
+        return search;
+    }
+
+    private static Element getCountElement(ClassInfo classInfo) {
+        Element search = new Element("select");
+        search.setAttribute("id", "count");
+
+        Text select = new Text("SELECT COUNT(*) FROM " + ClassUtil.generateTableName(classInfo));
+        search.addContent(select);
+
+        Element where = new Element("where");
+        for (FieldInfo fieldInfo : classInfo.getSearchClass().getFieldList()) {
+            if (fieldInfo.getName().equals("orderBy")
+                    || fieldInfo.getName().equals("limit")
+                    || fieldInfo.getName().equals("page")
+                    || fieldInfo.getName().equals("offset")
+                    || fieldInfo.getName().startsWith("null")) {
+                continue;
+            }
+
+            if (fieldInfo.getName().equals("beginTime")) {
+                Element test = new Element("if");
+                test.setAttribute("test", fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` >= #{" + fieldInfo.getName() + "}");
+                test.addContent(text);
+                where.addContent(test);
+                continue;
+            }
+
+            if (fieldInfo.getName().equals("endTime")) {
+                Element test = new Element("if");
+                test.setAttribute("test", fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` <= #{" + fieldInfo.getName() + "}");
+                test.addContent(text);
+                where.addContent(test);
+                continue;
+            }
+
+            Element test = new Element("if");
+            test.setAttribute("test", fieldInfo.getName() + "!=null");
+            Text text = new Text("AND " + fieldInfo.getColumnName() + "=#{" + fieldInfo.getName() + "}");
+            test.addContent(text);
+            where.addContent(test);
+        }
+
+        search.addContent(where);
         return search;
     }
 
