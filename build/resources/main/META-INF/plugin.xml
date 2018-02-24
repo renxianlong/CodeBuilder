@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <name>CodeBuilder</name>
   <version>2018.2.28</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
   <description>
@@ -12,7 +12,7 @@
       &lt;em&gt;most HTML tags may be used&lt;/em&gt;
     
   </change-notes>
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="141.0"/>
   <extensions defaultExtensionNs="com.intellij"/>
   <actions>
     <action id="codebuilder.mapper" class="com.kong.codebuilder.action.MapperBuilderAction" text="build mapper" description="生成mapper和dao service">

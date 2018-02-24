@@ -144,6 +144,7 @@ public class FileUtil {
             }
 
             Format format = Format.getPrettyFormat();
+            format.setIndent("    ");
             XMLOutputter outputter = new XMLOutputter(format);
             FileOutputStream fileOutputStream = new FileOutputStream(file);
             outputter.output(document, fileOutputStream);//Rawoutput

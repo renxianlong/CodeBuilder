@@ -136,8 +136,8 @@ public class MapperBuilder {
 
             if (fieldInfo.getName().equals("beginTime")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("AND " + "`create_time` >= #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` >= #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 where.addContent(test);
                 continue;
@@ -145,16 +145,16 @@ public class MapperBuilder {
 
             if (fieldInfo.getName().equals("endTime")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("AND " + "`create_time` <= #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` <= #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 where.addContent(test);
                 continue;
             }
 
             Element test = new Element("if");
-            test.setAttribute("test", fieldInfo.getName() + "!=null");
-            Text text = new Text("AND " + fieldInfo.getColumnName() + "=#{" + fieldInfo.getName() + "}");
+            test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+            Text text = new Text("AND " + fieldInfo.getColumnName() + "=#{search." + fieldInfo.getName() + "}");
             test.addContent(text);
             where.addContent(test);
         }
@@ -164,8 +164,8 @@ public class MapperBuilder {
         classInfo.getSearchClass().getFieldList().forEach(fieldInfo -> {
             if (fieldInfo.getName().equals("orderBy")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("ORDER BY #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("ORDER BY #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 search.addContent(test);
             }
@@ -175,8 +175,8 @@ public class MapperBuilder {
         classInfo.getSearchClass().getFieldList().forEach(fieldInfo -> {
             if (fieldInfo.getName().equals("limit")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("LIMIT #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("LIMIT #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 search.addContent(test);
             }
@@ -186,8 +186,8 @@ public class MapperBuilder {
         classInfo.getSearchClass().getFieldList().forEach(fieldInfo -> {
             if (fieldInfo.getName().equals("offset")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("OFFSET #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." +fieldInfo.getName() + "!=null");
+                Text text = new Text("OFFSET #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 search.addContent(test);
             }
@@ -215,8 +215,8 @@ public class MapperBuilder {
 
             if (fieldInfo.getName().equals("beginTime")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("AND " + "`create_time` >= #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` >= #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 where.addContent(test);
                 continue;
@@ -224,16 +224,16 @@ public class MapperBuilder {
 
             if (fieldInfo.getName().equals("endTime")) {
                 Element test = new Element("if");
-                test.setAttribute("test", fieldInfo.getName() + "!=null");
-                Text text = new Text("AND " + "`create_time` <= #{" + fieldInfo.getName() + "}");
+                test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+                Text text = new Text("AND " + "`create_time` <= #{search." + fieldInfo.getName() + "}");
                 test.addContent(text);
                 where.addContent(test);
                 continue;
             }
 
             Element test = new Element("if");
-            test.setAttribute("test", fieldInfo.getName() + "!=null");
-            Text text = new Text("AND " + fieldInfo.getColumnName() + "=#{" + fieldInfo.getName() + "}");
+            test.setAttribute("test", "search." + fieldInfo.getName() + "!=null");
+            Text text = new Text("AND " + fieldInfo.getColumnName() + "=#{search." + fieldInfo.getName() + "}");
             test.addContent(text);
             where.addContent(test);
         }
@@ -261,14 +261,14 @@ public class MapperBuilder {
                 continue;
             }
             Element test = new Element("if");
-            test.setAttribute("test", fieldInfo.getName() + "!=null");
-            Text textTemp = new Text(fieldInfo.getColumnName() + "=#{" + fieldInfo.getName() + "} ,");
+            test.setAttribute("test", "pojo." + fieldInfo.getName() + "!=null");
+            Text textTemp = new Text(fieldInfo.getColumnName() + "=#{" + "pojo." + fieldInfo.getName() + "} ,");
             test.addContent(textTemp);
             set.addContent(test);
         }
         update.addContent(set);
 
-        Text textWhere = new Text("WHERE `id` = #{id}");
+        Text textWhere = new Text("WHERE `id` = #{pojo.id}");
         update.addContent(textWhere);
         return update;
     }
@@ -284,7 +284,7 @@ public class MapperBuilder {
         Element insert = new Element("insert");
         insert.setAttribute("id", "batchInsert");
         insert.setAttribute("useGeneratedKeys", "true");
-        insert.setAttribute("keyProperty", "id");
+        insert.setAttribute("keyProperty", "pojo.id");
 
         Text insertText = new Text("INSERT INTO " + tableName + "(");
         insert.addContent(insertText);
@@ -306,10 +306,10 @@ public class MapperBuilder {
         boolean first = true;
         for (FieldInfo fieldInfo : classInfo.getFieldList()) {
             if (first) {
-                builder.append("#{" + fieldInfo.getName() + "}");
+                builder.append("#{pojo." + fieldInfo.getName() + "}");
                 first = false;
             } else {
-                builder.append(", #{" + fieldInfo.getName() + "}");
+                builder.append(", #{pojo." + fieldInfo.getName() + "}");
             }
         }
         builder.append(")");
@@ -331,7 +331,7 @@ public class MapperBuilder {
         Element insert = new Element("insert");
         insert.setAttribute("id", "insert");
         insert.setAttribute("useGeneratedKeys", "true");
-        insert.setAttribute("keyProperty", "id");
+        insert.setAttribute("keyProperty", "pojo.id");
 
         insert.addContent(new Text("INSERT INTO " + tableName));
 
@@ -342,7 +342,7 @@ public class MapperBuilder {
 
         for (FieldInfo field : classInfo.getFieldList()) {
             Element test = new Element("if");
-            test.setAttribute("test", field.getName() + "!=null");
+            test.setAttribute("test", "pojo." + field.getName() + "!=null");
             test.setText(field.getColumnName() + ",");
             trimColumn.addContent(test);
         }
@@ -357,8 +357,8 @@ public class MapperBuilder {
 
         for (FieldInfo field : classInfo.getFieldList()) {
             Element test = new Element("if");
-            test.setAttribute("test", field.getName() + "!=null");
-            test.setText("#{" + field.getName() + "}" + ",");
+            test.setAttribute("test", "pojo." + field.getName() + "!=null");
+            test.setText("#{" + "pojo." + field.getName() + "}" + ",");
             trimValue.addContent(test);
         }
 

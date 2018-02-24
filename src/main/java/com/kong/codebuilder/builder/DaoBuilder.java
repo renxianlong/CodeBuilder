@@ -59,19 +59,19 @@ public class DaoBuilder {
                 "\n" +
                 "public interface " + pojoClass + "Dao" + " {\n" +
                 "\n" +
-                "    int insert(" + pojoClass + " pojo);\n" +
+                "    int insert(@Param(\"pojo\") " + pojoClass + " pojo);\n" +
                 "\n" +
-                "    int insertList(List<" + pojoClass + "> pojos);\n" +
+                "    int batchInsert(@Param(\"pojoList\") List<" + pojoClass + "> pojoList);\n" +
                 "\n" +
-                "    int delete(Long id);\n" +
+                "    int delete(@Param(\"id\") Long id);\n" +
                 "\n" +
-                "    int update(" + pojoClass + " pojo);\n" +
+                "    int update(@Param(\"pojo\") " + pojoClass + " pojo);\n" +
                 "\n" +
-                "    " + pojoClass + " getById(Long id);\n" +
+                "    " + pojoClass + " getById(@Param(\"id\") Long id);\n" +
                 "\n" +
-                "    List<" + pojoClass + "> search(" + searchClassName + " search);\n" +
+                "    List<" + pojoClass + "> search(@Param(\"search\") " + searchClassName + " search);\n" +
                 "\n" +
-                "    int count(" + searchClassName + " search);\n" +
+                "    int count(@Param(\"search\")" + searchClassName + " search);\n" +
                 "}";
 
         //创建文件

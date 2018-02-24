@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <name>CodeBuilder</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -16,7 +16,7 @@
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="141.0"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->

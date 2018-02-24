@@ -66,8 +66,8 @@ public class ServiceBuilder {
                 "        " + formatFieldName(pojoClass) + "Dao.insert(" + formatFieldName(pojoClass) + ");\n" +
                 "    }\n" +
                 "\n" +
-                "    public void insertList(List<" + pojoClass + "> " + formatFieldName(pojoClass) + "List) {\n" +
-                "        " + formatFieldName(pojoClass) + "Dao.insertList(" + formatFieldName(pojoClass) + "List);\n" +
+                "    public void batchInsert(List<" + pojoClass + "> " + formatFieldName(pojoClass) + "List) {\n" +
+                "        " + formatFieldName(pojoClass) + "Dao.batchInsert(" + formatFieldName(pojoClass) + "List);\n" +
                 "    }\n" +
                 "\n" +
                 "    public void delete(Long id) {\n" +

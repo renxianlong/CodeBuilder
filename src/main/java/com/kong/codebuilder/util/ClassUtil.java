@@ -64,7 +64,7 @@ public class ClassUtil {
         String firstChar = fieldName.substring(0, 1);
         String otherChar = fieldName.substring(1);
         //生成get方法
-        String getMethodName = "get" + firstChar.toUpperCase() + otherChar.toLowerCase();
+        String getMethodName = "get" + firstChar.toUpperCase() + otherChar;
 
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("public " + field.getType().getCanonicalText() + " " + getMethodName + "() {\n");
@@ -87,7 +87,7 @@ public class ClassUtil {
         String firstChar = fieldName.substring(0, 1);
         String otherChar = fieldName.substring(1);
         //生成set方法名
-        String setMethodName = "set" + firstChar.toUpperCase() + otherChar.toLowerCase();
+        String setMethodName = "set" + firstChar.toUpperCase() + otherChar;
 
         //生成get方法
         StringBuilder stringBuilder = new StringBuilder();
