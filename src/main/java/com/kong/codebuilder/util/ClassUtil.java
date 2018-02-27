@@ -4,6 +4,7 @@ import com.google.common.base.CaseFormat;
 import com.intellij.psi.*;
 import com.kong.codebuilder.ClassType;
 import com.kong.codebuilder.common.Context;
+import com.kong.codebuilder.loader.MapperBuilderConfigLoader;
 import com.kong.codebuilder.pojo.ClassInfo;
 import com.kong.codebuilder.pojo.FieldInfo;
 import org.apache.commons.lang3.tuple.Pair;
@@ -159,5 +160,36 @@ public class ClassUtil {
         fieldInfo.setType(fieldType);
         fieldInfo.setPsiField(psiField);
         return fieldInfo;
+    }
+
+    /**
+     * 获取search类名
+     * @param classInfo
+     * @return
+     */
+    public static String getSimpleSearchName(ClassInfo classInfo){
+        return classInfo.getPsiClass().getNameIdentifier().getText() + "Search";
+    }
+
+    public static String getFullSearchName(ClassInfo classInfo){
+        //类名
+        String pojoClass = classInfo.getPsiClass().getNameIdentifier().getText();
+        //文件路径
+        String filePath = MapperBuilderConfigLoader.getInstance().getSearchPath();
+        //包名
+        PsiDirectory searchDirectory = FileUtil.getPsiDirectory(Context.project, filePath);
+        String packageName = ClassUtil.getPackageName(searchDirectory);
+        return packageName + "." + pojoClass + "Search";
+    }
+
+    public static String getFullDaoName(ClassInfo classInfo){
+        //类名
+        String pojoClass = classInfo.getPsiClass().getNameIdentifier().getText();
+        //文件路径
+        String filePath = MapperBuilderConfigLoader.getInstance().getDaoPath();
+        //包名
+        PsiDirectory searchDirectory = FileUtil.getPsiDirectory(Context.project, filePath);
+        String packageName = ClassUtil.getPackageName(searchDirectory);
+        return packageName + "." + pojoClass + "Dao";
     }
 }

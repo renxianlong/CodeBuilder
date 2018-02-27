@@ -5,6 +5,7 @@ import com.intellij.openapi.application.Result;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.vfs.VirtualFileManager;
 import com.intellij.psi.PsiDirectory;
+import com.intellij.psi.PsiElementFactory;
 import com.kong.codebuilder.common.Context;
 import com.kong.codebuilder.loader.MapperBuilderConfigLoader;
 import com.kong.codebuilder.pojo.ClassInfo;
@@ -15,28 +16,11 @@ import org.jetbrains.annotations.NotNull;
 public class ServiceBuilder {
 
     /**
-     * 生成Dao
-     */
-    public static void createService() {
-        ClassInfo baseSearch = MapperBuilderConfigLoader.getInstance().getBaseSearch();
-        if (null != baseSearch) {
-            MapperBuilderConfigLoader.getInstance().getClassInfoList().forEach(classInfo -> {
-                new WriteCommandAction(Context.project) {
-                    @Override
-                    protected void run(@NotNull Result result) throws Throwable {
-                        createService(classInfo);
-                    }
-                }.execute();
-            });
-        }
-    }
-
-    /**
      * 创建dao文件
      *
      * @param classInfo
      */
-    private static void createService(ClassInfo classInfo) {
+    public static void createService(ClassInfo classInfo) {
         //类名
         String pojoClass = classInfo.getPsiClass().getNameIdentifier().getText();
         //java文件名
@@ -50,8 +34,8 @@ public class ServiceBuilder {
         String daoFile = "package " + packageName + ";\n" +
                 "\n" +
                 "import java.util.List;\n" +
-                "import " + Context.getAttribute("DAO_FULL_NAME").toString() + ";\n" +
-                "import " + classInfo.getSearchClass().getClassFullName() + ";\n" +
+                "import " + ClassUtil.getFullSearchName(classInfo) + ";\n" +
+                "import " + ClassUtil.getFullDaoName(classInfo) + ";\n" +
                 "import " + classInfo.getClassFullName() + ";\n" +
                 "import org.springframework.stereotype.Service;\n" +
                 "\n" +
@@ -67,6 +51,10 @@ public class ServiceBuilder {
                 "    }\n" +
                 "\n" +
                 "    public void batchInsert(List<" + pojoClass + "> " + formatFieldName(pojoClass) + "List) {\n" +
+                "        if (CollectionUtils.isEmpty(pojos)) {\n" +
+                "            return 0;\n" +
+                "        }\n" +
+                "        pojos.forEach(p -> p.initTime());\n" +
                 "        " + formatFieldName(pojoClass) + "Dao.batchInsert(" + formatFieldName(pojoClass) + "List);\n" +
                 "    }\n" +
                 "\n" +
@@ -91,11 +79,10 @@ public class ServiceBuilder {
                 "    }\n" +
                 "}\n";
 
+        PsiElementFactory.SERVICE.getInstance(Context.project).createClassFromText(daoFile, searchDirectory);
+
         //创建文件
         FileUtil.createFile(fileName, filePath, daoFile);
-
-        ApplicationManager.getApplication().saveAll();
-        VirtualFileManager.getInstance().syncRefresh();
     }
 
     private static String formatFieldName(String className) {

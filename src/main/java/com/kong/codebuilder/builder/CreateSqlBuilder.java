@@ -27,20 +27,10 @@ import java.util.List;
 public class CreateSqlBuilder {
     /**
      * 生成建表语句
-     */
-    public static void generateCreateSql() {
-        List<ClassInfo> classInfoList = MapperBuilderConfigLoader.getInstance().getClassInfoList();
-        classInfoList.forEach(classInfo -> {
-            generateCreateSql(classInfo);
-        });
-    }
-
-    /**
-     * 生成建表语句
      *
      * @param classInfo
      */
-    private static void generateCreateSql(ClassInfo classInfo) {
+    public static void generateCreateSql(ClassInfo classInfo) {
         List<String> text = new LinkedList<>();
         String tableName = ClassUtil.generateTableName(classInfo);
         text.add(String.format("-- auto Generated on %s ", DateUtil.formatLong(new Date())));

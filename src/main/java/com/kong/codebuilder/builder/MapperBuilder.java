@@ -17,17 +17,7 @@ import org.jdom.Text;
 import java.util.List;
 
 public class MapperBuilder {
-    /**
-     * 生成mapper
-     */
-    public static void generateMapper() {
-        List<ClassInfo> classInfoList = MapperBuilderConfigLoader.getInstance().getClassInfoList();
-        classInfoList.forEach(classInfo -> {
-            generateMapper(classInfo);
-        });
-    }
-
-    private static void generateMapper(ClassInfo classInfo) {
+    public static void generateMapper(ClassInfo classInfo) {
         //设置头相关信息
         Document document = new Document();
         DocType docType = new DocType("mapper",
@@ -36,7 +26,7 @@ public class MapperBuilder {
 
         //mapper节点
         Element mapper = new Element("mapper");
-        mapper.setAttribute("namespace", Context.getAttribute("DAO_FULL_NAME").toString());
+        mapper.setAttribute("namespace", ClassUtil.getFullDaoName(classInfo));
         document.addContent(mapper);
 
         //设置resultMap
@@ -283,8 +273,6 @@ public class MapperBuilder {
         String tableName = ClassUtil.generateTableName(classInfo);
         Element insert = new Element("insert");
         insert.setAttribute("id", "batchInsert");
-        insert.setAttribute("useGeneratedKeys", "true");
-        insert.setAttribute("keyProperty", "pojo.id");
 
         Text insertText = new Text("INSERT INTO " + tableName + "(");
         insert.addContent(insertText);
@@ -293,7 +281,7 @@ public class MapperBuilder {
         include.setAttribute("refid", "AllColumnList");
         insert.addContent(include);
 
-        Text values = new Text("VALUES");
+        Text values = new Text(")VALUES");
         insert.addContent(values);
 
         Element foreach = new Element("foreach");

@@ -31,4 +31,8 @@ public class Context {
     public static Object getAttribute(String name) {
         return paramMap.get(name);
     }
+
+    public static void clear(){
+        paramMap.clear();
+    }
 }
