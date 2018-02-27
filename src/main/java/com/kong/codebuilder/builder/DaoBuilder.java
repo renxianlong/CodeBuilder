@@ -34,7 +34,6 @@ public class DaoBuilder {
                 "\n" +
                 "import java.util.List;\n" +
                 "import org.apache.ibatis.annotations.Param;\n" +
-
                 "import " + ClassUtil.getFullSearchName(classInfo) + ";\n" +
                 "import " + classInfo.getClassFullName() + ";\n" +
                 "\n" +
@@ -52,7 +51,7 @@ public class DaoBuilder {
                 "\n" +
                 "    List<" + pojoClass + "> search(@Param(\"search\") " + searchClassName + " search);\n" +
                 "\n" +
-                "    int count(@Param(\"search\")" + searchClassName + " search);\n" +
+                "    int count(@Param(\"search\") " + searchClassName + " search);\n" +
                 "}";
 
         //生成PsiClass

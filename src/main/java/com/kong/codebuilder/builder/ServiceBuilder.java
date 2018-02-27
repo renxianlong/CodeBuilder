@@ -1,9 +1,5 @@
 package com.kong.codebuilder.builder;
 
-import com.intellij.openapi.application.ApplicationManager;
-import com.intellij.openapi.application.Result;
-import com.intellij.openapi.command.WriteCommandAction;
-import com.intellij.openapi.vfs.VirtualFileManager;
 import com.intellij.psi.PsiDirectory;
 import com.intellij.psi.PsiElementFactory;
 import com.kong.codebuilder.common.Context;
@@ -11,7 +7,6 @@ import com.kong.codebuilder.loader.MapperBuilderConfigLoader;
 import com.kong.codebuilder.pojo.ClassInfo;
 import com.kong.codebuilder.util.ClassUtil;
 import com.kong.codebuilder.util.FileUtil;
-import org.jetbrains.annotations.NotNull;
 
 public class ServiceBuilder {
 
@@ -38,6 +33,7 @@ public class ServiceBuilder {
                 "import " + ClassUtil.getFullDaoName(classInfo) + ";\n" +
                 "import " + classInfo.getClassFullName() + ";\n" +
                 "import org.springframework.stereotype.Service;\n" +
+                "import org.springframework.util.CollectionUtils;\n" +
                 "\n" +
                 "import javax.annotation.Resource;\n" +
                 "\n" +
@@ -46,16 +42,16 @@ public class ServiceBuilder {
                 "    @Resource\n" +
                 "    private " + pojoClass + "Dao " + formatFieldName(pojoClass) + "Dao;\n" +
                 "\n" +
-                "    public void insert(" + pojoClass + " " + formatFieldName(pojoClass) + ") {\n" +
-                "        " + formatFieldName(pojoClass) + "Dao.insert(" + formatFieldName(pojoClass) + ");\n" +
+                "    public int insert(" + pojoClass + " " + formatFieldName(pojoClass) + ") {\n" +
+                "        return " + formatFieldName(pojoClass) + "Dao.insert(" + formatFieldName(pojoClass) + ");\n" +
                 "    }\n" +
                 "\n" +
-                "    public void batchInsert(List<" + pojoClass + "> " + formatFieldName(pojoClass) + "List) {\n" +
-                "        if (CollectionUtils.isEmpty(pojos)) {\n" +
+                "    public int batchInsert(List<" + pojoClass + "> " + formatFieldName(pojoClass) + "List) {\n" +
+                "        if (CollectionUtils.isEmpty(" + formatFieldName(pojoClass) + "List)) {\n" +
                 "            return 0;\n" +
                 "        }\n" +
-                "        pojos.forEach(p -> p.initTime());\n" +
-                "        " + formatFieldName(pojoClass) + "Dao.batchInsert(" + formatFieldName(pojoClass) + "List);\n" +
+                "        " + formatFieldName(pojoClass) + "List.forEach(p -> p.initTime());\n" +
+                "        return " + formatFieldName(pojoClass) + "Dao.batchInsert(" + formatFieldName(pojoClass) + "List);\n" +
                 "    }\n" +
                 "\n" +
                 "    public void delete(Long id) {\n" +
